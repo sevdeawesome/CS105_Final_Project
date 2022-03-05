@@ -11,3 +11,4 @@ def load_data(filename):
     image = io.imread('img/Thinking-of-getting-a-cat.png')
     image_data = (image).reshape(1200*600, 3)
     return image_data
+    # 
